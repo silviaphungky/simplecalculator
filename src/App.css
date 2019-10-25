@@ -1,22 +1,42 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #1e202a, #d24b4c); 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 15%;
 }
 
-.App-link {
-  color: #09d3ac;
+.output-screen {
+  margin-top: 80%;
+  margin: auto;
+  background-image: linear-gradient(to bottom, #1e202a, #d24b4c);
+  width: 320px;
+  height: 120px;
+  align-items: center;
+  display: flex;
+
+}
+
+.output{
+  text-align: right;
+  font-family: 'Roboto Thin';
+  color: white;
+  justify-items: right;   
+  font-size: 30px;
+}
+
+.buttons {
+  margin: auto;
+  display: block;
+  width: 320px;
+  height: 400px;
+}
+
+.buttons Button {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  border: none;
+  background: #1e202a;
+  color: #d24b;
+  font-family: 'Roboto Thin';
 }
