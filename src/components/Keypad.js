@@ -6,8 +6,7 @@ class Keypad extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      result: '',
-      view: ''
+      result: ''
     }
   }
 
@@ -31,10 +30,10 @@ class Keypad extends Component {
 
   calculate = () => {
     try{
-      this.setState((prevState) => ({
+      this.setState({
       result: eval(this.state.result)
-    }))
-  } catch{
+    })
+  } catch(e){
     this.setState((prevState) => ({
       result: prevState.result
     }))
